@@ -1,22 +1,30 @@
-## TWRP device tree for Xiaomi Redmi Note 3 and Xiaomi Redmi Note 3 Special Edition (kenzo/kate)
 
-Add to `.repo/local_manifests/kenzo.xml`:
+-----------------------------------------------------------------------
+* **Source**:- [https://github.com/TeamWin/android_device_xiaomi_kenzo](https://github.com/TeamWin/android_device_xiaomi_kenzo)
+-----------------------------------------------------------------------
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="TeamWin" revision="android-7.1" />
-</manifest>
-```
 
-Then run `repo sync` to check it out.
+Device configuration for Xiaomi Redmi Note 3(Kenzo) & 3 Pro(Kate)
+=============================
 
-To build:
+ Spec Sheet
+ =============================
 
-```sh
-. build/envsetup.sh
-lunch omni_kenzo-eng
-make -j8 recoveryimage
-```
+Basic   | Spec Sheet
+-------:|:-------------------------
+CPU     | Quad-core 1.4 GHz Cortex-A53 & Dual-core 1.8 GHz Cortex-A72
+Chipset | Qualcomm MSM8956 Snapdragon 650
+GPU     | Adreno 510
+Memory  | 2GB/3GB DDR3 Dual-channel
+Storage | 16GB/32GB
+MicroSD | Up to 32GB
+Battery | Non-removable Li-Po 4050 mAh battery
+Display | 1920x1080 pixels, 5.5 inches (~401 ppi pixel density)
+Camera  | Primary: 16 MP, f/2.0, phase detection autofocus, dual-LED (dual tone) flash
+	| Secondary: 5 MP, f/2.0, 1080p
+ 
+ 
+ Device Picture
+=============================
 
-Kernel sources are available at: https://github.com/LineageOS/android_kernel_xiaomi_msm8956
+![Xiaomi Redmi Note 3](http://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-3-1.jpg "Xiaomi Redmi Note 3")
