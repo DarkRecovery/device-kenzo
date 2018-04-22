@@ -1,14 +1,14 @@
 
------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 * **Source**:- [https://github.com/TeamWin/android_device_xiaomi_kenzo](https://github.com/TeamWin/android_device_xiaomi_kenzo)
------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 
 
-Device configuration for Xiaomi Redmi Note 3(Kenzo) & 3 Pro(Kate)
-=============================
+Xiaomi Redmi Note 3(Kenzo) & 3 Pro(Kate)
+========================================
 
  Spec Sheet
- =============================
+ ==========
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -20,11 +20,11 @@ Storage | 16GB/32GB
 MicroSD | Up to 32GB
 Battery | Non-removable Li-Po 4050 mAh battery
 Display | 1920x1080 pixels, 5.5 inches (~401 ppi pixel density)
-Camera  | Primary: 16 MP, f/2.0, phase detection autofocus, dual-LED (dual tone) flash
-	| Secondary: 5 MP, f/2.0, 1080p
+Rear Camera | 16 MP, f/2.0, phase detection autofocus, dual-LED (dual tone) flash
+Front Camera | 5 MP, f/2.0, 1080p
  
  
  Device Picture
-=============================
+===============
 
 ![Xiaomi Redmi Note 3](http://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-3-1.jpg "Xiaomi Redmi Note 3")
