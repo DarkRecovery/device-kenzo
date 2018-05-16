@@ -11,7 +11,7 @@ PRODUCT_PACKAGES += \
 	charger_res_images \
 	charger
 
-## Device identifier. This must come after all inclusions
+# Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := kenzo
 PRODUCT_NAME := omni_kenzo
 PRODUCT_BRAND := Xiaomi
